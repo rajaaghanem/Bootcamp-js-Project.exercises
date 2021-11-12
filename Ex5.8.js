@@ -1,9 +1,11 @@
+//$ Ex5.8 - shortest words version 2
+
 //$ Ex5.7 - shortest words
 
-function shortest(str){
+function longest(str){
 
     let length=0;
-    let min=str.length;
+    let max=0;
     let flag =true;
 
     if (!str.includes(" ")) return str.length;
@@ -13,17 +15,17 @@ function shortest(str){
             length++;
         } 
         else {
-            if (length<min) min=length;
+            if (length>max) max=length;
             length=0;
         }
     }
-    return min;
+    return max;
 }
 
 //! test
 
-console.log (shortest("hello there how are you?"));
-console.log (shortest("hello"));
-console.log (shortest("hello thereeee how are you?"));
+console.log (longest("hello there how are you?"));
+console.log (longest("hello"));
+console.log (longest("hello thereeee how are you?"));
 
 
