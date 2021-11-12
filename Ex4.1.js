@@ -10,4 +10,6 @@ function fibonacci(starting,n){
     return arr;
 }
 
+
+//!test
 console.log(fibonacci(1,3));
