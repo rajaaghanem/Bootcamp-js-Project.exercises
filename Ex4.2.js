@@ -13,7 +13,6 @@ function tribonacci(signature, n){
 }
 
 
-
 //! test
 let arr= [1,1,1];
 console.log(tribonacci(arr,8));
