@@ -1,7 +1,5 @@
 //$ Ex5.8 - shortest words version 2
 
-//$ Ex5.7 - shortest words
-
 function longest(str){
 
     let length=0;
