@@ -4,7 +4,6 @@ function shortest(str){
 
     let length=0;
     let min=str.length;
-    let flag =true;
 
     if (!str.includes(" ")) return str.length;
 
